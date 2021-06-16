@@ -1,0 +1,124 @@
+/*首頁格式*/
+@font-face {
+    font-family: "bitterIta";
+    src: url(Bitter-Italic-VariableFont_wght.ttf);
+}
+.header {
+    font-family: bitterIta;
+    padding: 0 60px;
+    background-color: rgb(201, 112, 142);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.about {
+    font-family: bitterIta;
+    background-color: #ecbdce;
+    padding: 30px 30px;
+    color:rgb(90, 58, 58)
+}
+.about-inner {
+    font-family: bitterIta;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.about h1 {
+    font-family: bitterIta;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 30px;
+}
+.about p {
+    font-family: bitterIta;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 30px;
+}
+.about-features {
+    background-color: #ffe3f1;
+    padding: 60px 40px;
+    
+}
+/*.features-inner {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}*/
+.featured-item {
+    flex: 0;
+    margin: 10px;
+    padding: 20px;
+}
+.featured-item h1 {
+    font-family: bitterIta;
+    color: #aa475e;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    font-weight: normal;
+    margin: 0;
+    /*font-family: bitterIta;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 30px;*/
+}
+.featured-item p {
+    font-family: bitterIta;
+    margin-top: 10px;
+    line-height: 1.6;
+    color: #333;
+    
+}
+.ingredients {
+    font-family: bitterIta;
+    background-color: #ecbdce;
+    padding: 60px 30px;
+    color:rgb(90, 58, 58)
+}
+.ingredients-inner {
+    font-family: bitterIta;
+    max-width: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+.ingredients-features {
+    background-color: #fff6e3;
+    padding: 40px 30px;
+    
+}
+.ingredient-item img{
+    display: flex;
+    justify-content: center;
+}
+.ingredient-item p, h3{
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+}
+/*.th tg-0pky, tg-0lax, tg-baqh, tg-c3ow{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}*/
+.diy{
+    font-family: bitterIta;
+    background-color: #ecbdce;
+    padding: 40px 30px;
+    color:rgb(90, 58, 58)
+}
+.diy-step{
+    background-color: aliceblue;
+    padding: 20px 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.quiz {
+    text-align: center;
+}
