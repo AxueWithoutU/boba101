@@ -19,6 +19,12 @@
     padding: 30px 30px;
     color:rgb(90, 58, 58)
 }
+.charts {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .about-inner {
     font-family: bitterIta;
     display: flex;
